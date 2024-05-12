@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateTask" >
+
+
+    <TextView
+        android:id="@+id/addTaskHeading"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add Task"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/addTaskHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="33dp"
+        android:src="@drawable/baseline_add_task_24" />
+
+    <EditText
+        android:id="@+id/taskEditText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addTaskHeading"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter the title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/addDescription"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addTaskHeading"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter the description"
+        android:padding="12dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/addPriority"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addDescription"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter the Priority"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/addTags"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addTaskHeading"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter the Tags"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
