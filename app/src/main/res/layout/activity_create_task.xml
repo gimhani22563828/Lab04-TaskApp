@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreateTask" >
+    tools:context=".CreateTask">
 
 
     <TextView
@@ -54,6 +54,7 @@
         android:fontFamily="@font/poppins"
         android:hint="Enter the description"
         android:padding="12dp"
+        android:maxLines="3"
         android:textSize="12sp" />
 
     <EditText
